@@ -1,6 +1,12 @@
 //começar importantando o React. 
 import React,  { useState } from 'react';
-import { View, Text, TextInput} from 'react-native';
+import { View, 
+        Text, 
+        Image,
+      
+      
+      } from 'react-native';
+import IllustrationImg from '../../assets/Illustration.png';     
 import { styles} from './styles';
 
 
@@ -15,22 +21,10 @@ const [text, setText] = useState ('');
   return (
 
     <View style={ styles.container }>
-    
-    <Text> Hello Word, NLW - Togther! </Text>
+    <Image source={Illustration}/>
 
 
-    <TextInput style={styles.input}
-    
-    onChangeText ={setText}
-    
-    />
 
-    <Text>
-      
-       Você digitou: {text}
-    
-     </Text>
-    
     </View>
   );
 }
