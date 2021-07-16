@@ -6,7 +6,7 @@ import { View,
       
       
       } from 'react-native';
-import IllustrationImg from '../../assets/Illustration.png';     
+import IllustrationImg from '../../../src/assets/illustration.png';     
 import { styles} from './styles';
 
 
@@ -19,12 +19,28 @@ export  function SignIn (){
 const [text, setText] = useState ('');
 
   return (
+          
+    <View style={ styles.container } >
+    
+    <Image
+     source={IllustrationImg} 
+     style={ styles.image}
+     
+     />
+    <View style={styles.content}>
+      <Text style={styles.title}>
+           Intereja{'\n'}
+           e organize suas{'\n'}
+           competições{'\n'}
+      </Text>
 
-    <View style={ styles.container }>
-    <Image source={Illustration}/>
+      <Text style={ styles.subtitles}>
+          Crie grupos para o play{'\n'}
+          favoritos com seus colegas{'\n'}
 
 
-
+      </Text>
+    </View>
     </View>
   );
 }
