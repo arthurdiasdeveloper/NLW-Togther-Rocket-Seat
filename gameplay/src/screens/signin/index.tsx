@@ -25,6 +25,7 @@ const [text, setText] = useState ('');
     <Image
      source={IllustrationImg} 
      style={ styles.image}
+     resizeMode="stretch"
      
      />
     <View style={styles.content}>

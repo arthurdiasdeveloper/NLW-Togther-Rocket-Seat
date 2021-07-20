@@ -14,6 +14,12 @@ export const styles = StyleSheet.create({
       height: 360
 
 
+    },
+    title: {
+      color.theme.colors.heading,
+      textAlign:'center',
+      fontSize: 40, 
+
     }
    
 });
