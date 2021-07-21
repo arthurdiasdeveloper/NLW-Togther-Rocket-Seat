@@ -18,8 +18,18 @@ export const styles = StyleSheet.create({
     title: {
       color.theme.colors.heading,
       textAlign:'center',
-      fontSize: 40, 
+      fontSize: 40,
+      marginbotton: 16,
 
-    }
+
+    },
+    subtitle: {
+      color.theme.colors.heading,
+      fontSize: 15,
+      textAlign: 100,
+      marginBottom: 64,
+
+
+    },
    
 });
