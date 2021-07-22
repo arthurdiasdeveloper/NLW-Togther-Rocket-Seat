@@ -3,6 +3,7 @@ import React,  { useState } from 'react';
 import { View, 
         Text, 
         Image,
+        StatusBar,
       
       
       } from 'react-native';
@@ -16,11 +17,17 @@ import { styles} from './styles';
 //função padrão que retona algum componete.
 export  function SignIn (){
 
-const [text, setText] = useState ('');
+//const [text, setText] = useState ('');
 
   return (
           
     <View style={ styles.container } >
+      <StatusBar
+      barStyle="ligth-content"
+      
+      
+      
+      />
     
     <Image
      source={IllustrationImg} 

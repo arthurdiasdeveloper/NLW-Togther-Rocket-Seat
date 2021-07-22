@@ -18,21 +18,21 @@ export const styles = StyleSheet.create({
 
     content: {
       marginTop: -40,
-      
-    }
+
+    },
 
     title: {
-      color.theme.colors.heading,
+      color: theme.colors.heading,
       textAlign:'center',
       fontSize: 40,
-      marginbotton: 16,
+      marginBottom: 16,
 
 
     },
     subtitle: {
-      color.theme.colors.heading,
+      color: theme.colors.heading,
       fontSize: 15,
-      textAlign: 100,
+      textAlign: 'center',
       marginBottom: 64,
 
 
