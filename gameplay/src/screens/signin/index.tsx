@@ -1,5 +1,5 @@
 //começar importantando o React. 
-import React,  { useState } from 'react';
+import React from 'react';
 import { View, 
         Text, 
         Image,
@@ -24,6 +24,8 @@ export  function SignIn (){
     <View style={ styles.container } >
       <StatusBar
       barStyle="ligth-content"
+      backgroundColor="transparent"
+      translucent
       
       
       
@@ -48,6 +50,8 @@ export  function SignIn (){
 
 
       </Text>
+
+
     </View>
     </View>
   );
