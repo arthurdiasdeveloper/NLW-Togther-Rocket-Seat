@@ -7,6 +7,7 @@ import { View,
       
       
       } from 'react-native';
+   
 import IllustrationImg from '../../../src/assets/illustration.png';     
 import { styles} from './styles';
 
@@ -44,7 +45,7 @@ export  function SignIn (){
            competições{'\n'}
       </Text>
 
-      <Text style={ styles.subtitles}>
+      <Text style={ styles.subtitle}>
           Crie grupos para o play{'\n'}
           favoritos com seus colegas{'\n'}
 
