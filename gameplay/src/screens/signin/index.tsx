@@ -3,11 +3,12 @@ import React from 'react';
 import { View, 
         Text, 
         Image,
-        StatusBar,
+        StatusBar
+
       
       
       } from 'react-native';
-   
+import { ButtonIcon } from '../../components/ButtonIcon/Index';   
 import IllustrationImg from '../../../src/assets/illustration.png';     
 import { styles} from './styles';
 
@@ -48,11 +49,11 @@ export  function SignIn (){
       <Text style={ styles.subtitle}>
           Crie grupos para o play{'\n'}
           favoritos com seus colegas{'\n'}
-
+          
 
       </Text>
 
-
+    <ButtonIcon/>
     </View>
     </View>
   );
