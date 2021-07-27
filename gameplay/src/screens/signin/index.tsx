@@ -7,8 +7,9 @@ import { View,
 
       
       
-      } from 'react-native';
-import { ButtonIcon } from '../../components/ButtonIcon/Index';   
+} from 'react-native';
+
+import { ButtonIcon } from '../../components/ButtonIcon/Index';
 import IllustrationImg from '../../../src/assets/illustration.png';     
 import { styles} from './styles';
 

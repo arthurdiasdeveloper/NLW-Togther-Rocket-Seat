@@ -1,20 +1,21 @@
+import React from 'react';
 import {} from 'react';
 import {
     Text,
     Image,
     View,
-    TouchableOpacity
+    TouchableOpacity,
     
 }from 'react-native';
 
 import DiscordImg from '../../assets/discord.png';
-import { styles } from '../../screens/signin/styles';
+import { styles } from './styles';
 
 
 export function ButtonIcon(){
 
     return (
-        <TouchableOpacity style={styles.container }>
+      <TouchableOpacity style={styles.container }>
 
         <View style={styles.iconWrapper}>
             <Image source={DiscordImg} style={styles.icon}/>
@@ -26,7 +27,6 @@ export function ButtonIcon(){
             </Text>
          </TouchableOpacity>
         
-
     );
 
 }
