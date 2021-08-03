@@ -7,7 +7,6 @@ import {
     TouchableOpacity,
     
 }from 'react-native';
-import { ButtonIcon } from '../../components/ButtonIcon';
 import DiscordImg from '../../assets/discord.png';
 import { styles } from './styles';
 

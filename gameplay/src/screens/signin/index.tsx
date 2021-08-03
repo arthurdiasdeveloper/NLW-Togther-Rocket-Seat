@@ -54,7 +54,7 @@ export  function SignIn (){
 
       </Text>
 
-      <ButtonIcon/>
+      <ButtonIcon />
     </View>
     
     </View>
